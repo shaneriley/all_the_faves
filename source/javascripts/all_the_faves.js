@@ -23,7 +23,6 @@ var AllTheFaves = {
         rel: this.getOpt("default_rel")
       };
     }
-    console.dir(new_size);
     return new_size;
   },
   createElements: function() {
