@@ -39,3 +39,12 @@ AllTheFaves.render({
   selector: "[rel=my_icon]"
 });
 ```
+
+## Favicon.ico
+
+This plugin does not auto-generate an ico file for you. If you need to do this
+and can install [ImageMagick](http://www.imagemagick.org/script/index.php),
+gather up your icon sizes in PNG format (16x16, 32x32, 48x48, 64x64, 128x128)
+and from the path that the images reside, run
+`convert <filename_1 .. filename_n> favicon.ico`, where filename_1 to
+filename_n is a space separated list of the file names.
